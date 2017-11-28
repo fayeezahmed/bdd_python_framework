@@ -1,0 +1,17 @@
+
+### Initial steps ###
+## In the terminal type python setup.py install to install the above packages to the path
+## Do this in the virtual environment to keep it isolated and clean
+## Do python setup.py develop to update the packages
+## Remember geckodriver for Firefox is a pain. Might have to install it and update your system PATH
+## For elements, I have stuck them in a dictionary within the main project area
+## Project areas can be considered feature areas too
+## Create an environment.py file and put it in the root of where you will run behave. This will have setup and teardown functions
+## Also create a browser class to get ready to create page objects too
+
+
+## Resources ##
+
+https://teamtreehouse.com/community/subclass-error-keyerror-name-not-in-globals
+https://github.com/the-creative-tester/python-behave-web-browser-automation-example
+https://the-creative-tester.github.io/Python-Web-Browser-Automation-Behave/
